@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat with us</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="head">
+      <a class="name" href="index.html">Currency Converter</a>
+
+      <nav class="features">
+        <ul class="feature-list">
+          <li><a href="chat.html">Chat with us</a></li>
+          <li><a href="about.html">About us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="chat-main">
+      <h2 class="chat-head">We're Here to help</h2>
+      <p class="chat-para">Got questions? We'll reply within 24 hours</p>
+    </div>
+
+    <div class="container2">
+      <!-- LEFT SIDE -->
+      <div class="chat-form">
+        <div class="upper-msg">
+          <i class="fa-regular fa-envelope"></i>
+          <p class="form-head">Send us a message</p>
+        </div>
+
+        <div class="form">
+          <form>
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="user-name" required />
+            <br />
+
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="user-email" required />
+            <br />
+
+            <label for="subject">Subject:</label><br />
+
+            <select name="subject" id="subject">
+              <option value="conversion-issue">Conversion Issue</option>
+
+              <option value="wrong-rate">Wrong Rate</option>
+
+              <option value="general-inquiry">General Inquiry</option>
+
+              <option value="feedback">Feedback</option>
+            </select>
+
+            <br />
+
+            <label for="message">Message:</label><br />
+
+            <textarea id="message" name="user-message"> </textarea>
+
+            <br />
+          </form>
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="right-container">
+        <!-- COMMON QUESTIONS -->
+        <div class="common-ques">
+          <div class="upper-text">
+            <i class="fa-solid fa-circle-question"></i>
+            <p class="ques-upper-text">Common questions</p>
+          </div>
+
+          <details>
+            <summary>How often are rates updated?</summary>
+
+            <p>Rates refresh every 24 hours from live market data.</p>
+          </details>
+
+          <details>
+            <summary>Which currencies are supported?</summary>
+
+            <p>We support 150+ major and minor currencies.</p>
+          </details>
+
+          <details>
+            <summary>Why are exchange rates slightly different?</summary>
+
+            <p>Rates vary slightly by source and update time.</p>
+          </details>
+
+          <details>
+            <summary>Is this tool free?</summary>
+
+            <p>Yes, completely free to use.</p>
+          </details>
+        </div>
+
+        <!-- CONTACT INFO -->
+        <div class="bottom-section">
+          <div class="contact-info">
+            <div class="contact-text">
+              <i class="fa-regular fa-address-book"></i>
+              <p>Contact info</p>
+            </div>
+
+            <div class="mail">
+              <i class="fa-solid fa-envelope-open"></i>
+
+              <a class="mail1" 
+                href="https://mail.google.com/mail/u/0/#sent?compose=DmwnWrRqhSLBJJkPNpbXVxNsFXSkvrwjFbTmnkGllHWCHbQTbMGWJsWcBnsRtTGHmlNLXTPTZvwb"
+                target="_blank"
+              >
+                mananbansal583@gmail.com
+              </a>
+            </div>
+
+            <div class="time-taken">
+              <i class="fa-solid fa-clock"></i>
+              <p class="time-text">Reply within 24-48 hours</p>
+            </div>
+
+            <div class="insta">
+              <i class="fa-brands fa-instagram"></i>
+
+              <a class="insta-text" href="https://www.instagram.com/iammananbansal/" target="_blank">
+                @iammananbansal
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p class="footer-text"> We do not provide financial advice. Exchange rates shown are for reference only and may vary from actual transaction rates.</p>
+    </footer>
+  </body>
+</html>
