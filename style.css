@@ -16,7 +16,7 @@
 
 a {
   text-decoration: none;
-  color: #837569;
+  color: #36454F;
   font-size: x-large;
 }
 
@@ -223,7 +223,7 @@ input {
 .form select,
 .form textarea {
   width: 95%;
-  padding: 12px;
+  padding: 12px 16px;
 
   margin-top: 8px;
   margin-bottom: 18px;
@@ -625,7 +625,7 @@ body {
 .amount {
   text-align: center;
   font-size: xx-large;
-  background-color: #837569;
+  background-color:#36454F;
   color: white;
   padding: 10px;
   border-radius: 8px;
@@ -659,7 +659,7 @@ body {
 .convert-button {
   font-size: x-large;
   padding: 12px 24px;
-  background-color: #837569;
+  background-color: #36454F;
   color: white;
   border: none;
   border-radius: 8px;
