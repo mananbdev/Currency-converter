@@ -676,3 +676,8 @@ body {
   background-color: #657153;
   transform: translateY(-2px);
 }
+
+.from,.to{
+  display: flex;
+  gap: 6px;
+}
