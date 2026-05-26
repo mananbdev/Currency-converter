@@ -9,8 +9,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="app.js" defer></script>
-    <script src="code.js" defer></script>
   </head>
   <body>
     <header class="head">
@@ -31,19 +29,23 @@
         <div class="exchange">
           <div class="from">
             <img src="https://flagsapi.com/US/flat/64.png" class="flags">
-            <select class="exchange-from"></select>
+            <select class="exchange-from" name="from"></select>
           </div>
           <i class="fa-solid fa-arrow-right-arrow-left" id="exchange-country"></i>
           <div class="to">
             <img src="https://flagsapi.com/IN/flat/64.png" class="flags">
-            <select class="exchange-to" ></select>
+            <select class="exchange-to" name="to"></select>
           </div>
         </div>
         <br />
         <div class="last">
           <button class="convert-button">Calculate Conversion</button>
         </div>
+        <br>
+        <div class="msg"></div>
       </div>
     </div>
+    <script src="code.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
