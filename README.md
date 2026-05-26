@@ -7,7 +7,7 @@
 
 Currency Converter is a lightweight web app that lets you instantly convert between 150+ world currencies using live exchange rates. It was built as a web development project to practice real-world API integration, responsive design, and clean UI principles.
 
-**[🚀 View Live Demo](https://mananbdev.github.io/Currency-converter/)** | **[📂 View Repository](https://github.com/mananbdev/Currency-converter)**
+**[🚀 View Live Demo](https://mananbdev.github.io/currency-converter/)** | **[📂 View Repository](https://github.com/mananbdev/Currency-converter)**
 
 ---
 
